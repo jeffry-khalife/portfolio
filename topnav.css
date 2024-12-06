@@ -1,0 +1,69 @@
+/* Top nav bar */
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 0 10px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+    }
+  
+    /* Change the background color if it's the actual page */
+   nav a.active {
+   background-color: #027731;
+   color: white;
+   }
+  /* Change the background color when the mouse is on it */
+   nav a:hover {
+   background-color: #777;
+   }
+  
+
+
+@media (max-width: 600px) {
+  nav {
+      flex-direction: column;
+      padding: 20px;
+  }
+
+  nav a {
+      font-size: 1rem;
+      padding: 10px;
+      margin: 5px 0;
+  }
+}
+
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  nav {
+      flex-direction: row;
+      padding: 15px;
+  }
+
+  nav a {
+      font-size: 1rem;
+      padding: 12px 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  nav {
+      justify-content: space-evenly;
+  }
+
+  nav a {
+      font-size: 1.2rem;
+      padding: 12px 25px;
+  }
+}
