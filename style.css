@@ -12,13 +12,13 @@ footer {
 
 
   .Copyright {
-   display: flex;
-   align-items: flex-end;
+    display: flex;
+    align-items: flex-end;
   }
  
   .Copyright img {
-   width:3%;
-   height:3%;
+    width:3%;
+    height:3%;
   }
 
 /* End of the footer  */ 
@@ -31,7 +31,7 @@ body {
   color: white;
   }
 
-
+/* Content section */
  .content h2 {
    font-size: 44px;
    color: white;
@@ -42,60 +42,63 @@ body {
  } 
    
  .content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 80vh;
-  text-align: center;
-  background-image: url("img/back.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  padding: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 80vh;
+   text-align: center;
+   background-image: url("img/back.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   padding: 50px;
  }
 
  .content h2 {
-  color: #fff;
-  font-size: 2.5rem;
-  margin: 0;
+   color: #fff;
+   font-size: 2.5rem;
+   margin: 0;
  }
 
-    
+/* end of the content section */
+
+/* card section */
  .card-container {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  margin-top: 30px;
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   margin-top: 30px;
  }
 
  .card {
-  background-color: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 250px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+   background-color: white;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   width: 250px;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
  }
 
  .card img {
-  width: 150px;
-  height: 250px;
+   width: 150px;
+   height: 250px;
  }
  
  .card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+   transform: translateY(-10px);
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
  }
 
  .card h3 {
-  color: #333;
-  font-size: 1.5rem;
+   color: #333;
+   font-size: 1.5rem;
  }
 
  .card p {
-  color: #333;
-  font-size: 1rem;
+   color: #333;
+   font-size: 1rem;
   }
 
+/* end card section */
 
 /* Start Typing effect  */
 .typing-effect {
