@@ -95,7 +95,7 @@ body {
   }
 
 
-/* Typing effect styling */
+/* Start Typing effect  */
 .typing-effect {
   font-size: 2rem;
   white-space: nowrap;
@@ -126,7 +126,7 @@ body {
 
 /* Container for the logo slider */
 .logo-slider {
-  width: 80%; /* Adjust the width as per your requirement */
+  width: 80%; 
   overflow: hidden;
 }
 
@@ -138,10 +138,9 @@ body {
 }
 
 
-/* Styling for each logo */
 .logos img {
-  margin-right: 30px; /* Space between logos */
-  height: 50px; /* You can adjust the height of logos */
+  margin-right: 30px; 
+  height: 50px; 
 }
 
 
